@@ -187,16 +187,3 @@ flowchart LR
 
 
 ---
-
-# 🧠 Explain it below the diagram
-
-Add this text:
-
-```markdown
-The Gaussian Process models the expected output and uncertainty, enabling exploration through the acquisition function.  
-The SVM classifier identifies promising regions by separating high-performing and low-performing areas.  
-Both models are combined into a hybrid decision strategy to guide the next query.
-
-dimensionality
-model uncertainty
-observed performance trends
