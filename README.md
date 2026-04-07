@@ -1,6 +1,6 @@
 # Imperial-Capstone
 
-🔹 Section(1): Project Overview
+## 🔹Section(1): Project Overview
 
 Black-Box Optimisation (BBO) Capstone Project
 
@@ -31,7 +31,8 @@ ML engineering
 data science
 decision intelligence systems
 optimisation problems in business environments
-🔹 Section(2): Inputs and Outputs
+
+## 🔹Section(2): Inputs and Outputs
 
 Inputs
 
@@ -55,7 +56,7 @@ This output is used to:
 update the dataset
 guide the next optimisation step
 
-🔹 Section(3): Challenge Objectives
+## 🔹Section(3): Challenge Objectives
 
 The objective of this project is to:
 
@@ -75,7 +76,7 @@ Managing uncertainty in high-dimensional spaces
 Designing strategies that improve over time
  
 
-🔹 Section(4): Technical Approach
+## 🔹Section(4): Technical Approach
 
 This project follows an iterative optimisation strategy, evolving across multiple rounds.
 
@@ -119,7 +120,7 @@ Benefit:
 Better interpretability
 Improved control over search regions
 More efficient exploration in high dimensions
-🔹 Section(5): Exploration vs Exploitation Strategy
+## 🔹Section(5): Exploration vs Exploitation Strategy
 
 The approach dynamically balances:
 
@@ -130,7 +131,7 @@ Exploration
 Sampling uncertain or untested regions
 Prevents early convergence
 
-## 🔹 Optimisation Workflow
+## 🔹Optimisation Workflow
 
 ```mermaid
 flowchart TD
