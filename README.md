@@ -129,7 +129,72 @@ Local refinement around best points
 Exploration
 Sampling uncertain or untested regions
 Prevents early convergence
-Adaptation based on:
+
+## 🔹 Optimisation Workflow
+
+```mermaid
+flowchart TD
+    A[Initial Dataset] --> B[Train Gaussian Process Model]
+    B --> C[Generate Candidate Points]
+    C --> D[Compute GP Predictions (Mean + Uncertainty)]
+    D --> E[Apply UCB Acquisition Function]
+
+    B --> F[Train SVM Classifier (High vs Low Regions)]
+    F --> G[Predict Probability of Promising Region]
+
+    E --> H[Combine Scores]
+    G --> H
+
+    H --> I[Select Best Candidate]
+    I --> J[Submit Query]
+    J --> K[Receive Output]
+    K --> A
+
+
+
+👉 This shows:
+- full pipeline
+- iterative loop
+- GP + SVM integration
+
+🔥 This alone impresses reviewers.
+
+---
+
+# 🔷 2. GP vs SVM Concept Diagram
+
+Add this section:
+
+```markdown
+## 🔹 Model Architecture: GP vs SVM
+
+```mermaid
+flowchart LR
+    A[Input Data (X, y)] --> B[Gaussian Process]
+    A --> C[SVM Classifier]
+
+    B --> D[Predict Mean & Uncertainty]
+    C --> E[Classify Regions (High vs Low)]
+
+    D --> F[UCB Score]
+    E --> G[Region Probability]
+
+    F --> H[Hybrid Decision]
+    G --> H
+
+    H --> I[Next Query Point]
+
+
+---
+
+# 🧠 Explain it below the diagram
+
+Add this text:
+
+```markdown
+The Gaussian Process models the expected output and uncertainty, enabling exploration through the acquisition function.  
+The SVM classifier identifies promising regions by separating high-performing and low-performing areas.  
+Both models are combined into a hybrid decision strategy to guide the next query.
 
 dimensionality
 model uncertainty
