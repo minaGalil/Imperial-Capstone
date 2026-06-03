@@ -201,12 +201,29 @@ flowchart TD
 ```
  
 
-## Documentation
+## Project Documentation
 
-This repository includes structured documentation to improve transparency, reproducibility and responsible ML practice.
+### Datasheet
+The datasheet describes:
+- dataset motivation
+- collection process
+- preprocessing
+- intended use
+- limitations
+- maintenance
 
-* [Datasheet: BBO Query History Dataset](docs/DATASHEET.md)
-* [Model Card: Hybrid BBO Optimisation Approach](docs/MODEL_CARD.md)
+📄 [View Datasheet](docs/DATASHEET.md)
+
+### Model Card
+The model card describes:
+- optimisation framework
+- intended use
+- performance
+- assumptions
+- limitations
+- ethical considerations
+
+📄 [View Model Card](docs/MODEL_CARD.md)
 
 The datasheet explains the purpose, structure, collection process, preprocessing, intended uses and limitations of the query-history dataset.
 
