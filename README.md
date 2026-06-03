@@ -193,3 +193,14 @@ flowchart TD
     K --> L[Receive Output]
     L --> A
  
+
+## 🔹 Documentation 
+
+This repository includes structured documentation to improve transparency, reproducibility and responsible ML practice.
+
+Datasheet: BBO Query History Dataset
+Model Card: Hybrid BBO Optimisation Approach
+
+The datasheet explains the purpose, structure, collection process, preprocessing, intended uses and limitations of the query-history dataset.
+
+The model card explains the optimisation approach, intended use, strategy evolution, performance indicators, assumptions, limitations and ethical considerations.
