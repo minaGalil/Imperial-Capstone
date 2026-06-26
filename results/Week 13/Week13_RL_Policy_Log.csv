@@ -1,0 +1,9 @@
+Function,Latest_Improved,Plateau_Detected,Policy_global,Policy_local,Policy_cluster,Policy_pca,Policy_gradient,Policy_diversity
+1,False,True,0.22,0.14,0.16,0.16,0.14,0.18
+2,False,False,0.22,0.14,0.16,0.16,0.14,0.18
+3,False,False,0.1,0.22,0.2,0.18,0.2,0.1
+4,False,False,0.1,0.22,0.2,0.18,0.2,0.1
+5,False,True,0.1,0.22,0.2,0.18,0.2,0.1
+6,False,False,0.1,0.22,0.2,0.18,0.2,0.1
+7,False,False,0.22,0.14,0.16,0.16,0.14,0.18
+8,False,False,0.22,0.14,0.16,0.16,0.14,0.18
