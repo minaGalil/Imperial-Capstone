@@ -178,28 +178,52 @@ README.md → project documentation
 
 ```mermaid
 flowchart TD
+
     A[Initial Dataset] --> B[Train GP Model]
     B --> C[Generate Candidates]
     C --> D[Compute UCB Score]
+
     A --> E[Train SVM Model]
     E --> F[Estimate Promising Regions]
+
     A --> G[Train Neural Network]
     G --> H[Estimate Gradients]
+
     D --> I[Combine Scores]
     F --> I
     H --> I
+
     I --> J[Select Best Candidate]
     J --> K[Submit Query]
     K --> L[Receive Output]
+
     L --> A
+```
  
 
-## 🔹 Documentation 
+## Project Documentation
 
-This repository includes structured documentation to improve transparency, reproducibility and responsible ML practice.
+### Datasheet
+The datasheet describes:
+- dataset motivation
+- collection process
+- preprocessing
+- intended use
+- limitations
+- maintenance
 
-Datasheet: BBO Query History Dataset
-Model Card: Hybrid BBO Optimisation Approach
+📄 [View Datasheet](docs/DATASHEET.md)
+
+### Model Card
+The model card describes:
+- optimisation framework
+- intended use
+- performance
+- assumptions
+- limitations
+- ethical considerations
+
+📄 [View Model Card](docs/MODEL_CARD.md)
 
 The datasheet explains the purpose, structure, collection process, preprocessing, intended uses and limitations of the query-history dataset.
 
